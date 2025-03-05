@@ -96,5 +96,9 @@ app.post("/send-bulk-email", async (req, res) => {
   res.json({ message: "Bulk email process completed", results });
 });
 
+app.get("/", (req, res, next) =>
+  res.status(200).json({ message: "Hello World" })
+);
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
