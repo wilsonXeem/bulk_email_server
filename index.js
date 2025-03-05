@@ -97,7 +97,7 @@ app.post("/send-bulk-email", async (req, res) => {
 });
 
 app.get("/", (req, res, next) =>
-  res.send("Hello World");
+  res.send("Welcome to the Microsoft Graph API with Node.js")
 );
 
 const PORT = process.env.PORT || 5000;
