@@ -32,7 +32,7 @@ app.post("/send-emails", async (req, res) => {
       </p>
       <p><b>Jintu Wang</b></p>
       <hr />
-      <div style="display: grid; grid-template-columns: 10% 1fr">
+      <div style="display: grid; grid-template-columns: 15% 1fr">
         <div>
           <img
             src="https://res.cloudinary.com/muyi-hira-app/image/upload/v1753928772/IMEX-Sourcing-Logo-darkmaroon-300x143-300x143_fi2hj7.png"
@@ -40,7 +40,7 @@ app.post("/send-emails", async (req, res) => {
             style="width: 100%"
           />
         </div>
-        <div style="border-left: 1px solid black; padding-left: 10px;">
+        <div style="border-left: 1px solid black; padding-left: 10px; font-size: small;">
           <p><b>Jintu Wang</b></p>
           <p><b>Project Manager/Project Contracting Department II</b></p>
           <p style="text-decoration: underline">IMEX LIAISONS GROUP</p>
