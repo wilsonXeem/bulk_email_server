@@ -18,16 +18,51 @@ app.post("/send-emails", async (req, res) => {
 
   const content = `
     <p>Hello Dear,</p>
-    <p>I hope you are doing well.</p>
-    <p>We are in urgent need of the subject mentioned product for an ongoing project.</p>
-    <p>Please let us know if it is possible to provide us with a solution, kindly provide your company catalog so we can review.</p>
-    <p>Thank you in advance and I look forward to receiving your prompt reply.</p>
-    <p><b>Marc Steenhaut </b></p>
-    <p><b>Procurement Manager</b></p>
-    <div><img src="https://res.cloudinary.com/muyi-hira-app/image/upload/v1740568695/logs_z3xiyy.png" alt=""></div>
-    <p><b>T:</b>[http://+17176783238]+1 717 678 3238</p>
-    <p><b>E:</b> <a href="mailto:marc@rnerlinsourcing.com">marc@merlinsourcing.com</a></p>
-    <p><b>W:</b> <a href="https://merlinsourcing.com/">merlinsourcing.com/</a></p>
+      <p>I hope you are doing well.</p>
+      <p>
+        We are in urgent need of the subject mentioned product for an ongoing
+        project.
+      </p>
+      <p>
+        Please let us know if it is possible to provide us with a solution,
+        kindly provide your company catalog so we can review.
+      </p>
+      <p>
+        Thank you in advance and I look forward to receiving your prompt reply.
+      </p>
+      <p><b>Jintu Wang</b></p>
+      <hr />
+      <div style="display: grid; grid-template-columns: 10% 1fr">
+        <div>
+          <img
+            src="https://res.cloudinary.com/muyi-hira-app/image/upload/v1753928772/IMEX-Sourcing-Logo-darkmaroon-300x143-300x143_fi2hj7.png"
+            alt="IMEX Sourcing Services"
+            style="width: 100%"
+          />
+        </div>
+        <div style="border-left: 1px solid black; padding-left: 10px;">
+          <p><b>Jintu Wang</b></p>
+          <p><b>Project Manager/Project Contracting Department II</b></p>
+          <p style="text-decoration: underline">IMEX LIAISONS GROUP</p>
+          <p>Room 2812B, R & F Yingtong Building No. 30 Huaxia Road,</p>
+          <p>Tianhe District,</p>
+          <p>Guangzhou, Guangdong, China 510623</p>
+          <p>FAX: (86571)8517 2055</p>
+          <p>TEX: (86571)8781 9801</p>
+          <p>MOBILE: +86 18829858559</p>
+          <p>
+            Email:
+            <a href="mailto:jintuwang@imexsuorcingservices.com"
+              >jintuwang@imexsourcingservices.com</a
+            >
+          </p>
+          <p>
+            <a href="https://imexsourcingservices.com"
+              >https://imexsourcingservices.com</a
+            >
+          </p>
+        </div>
+      </div>
   `;
 
   try {
