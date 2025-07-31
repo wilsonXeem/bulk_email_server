@@ -20,12 +20,10 @@ app.post("/send-emails", async (req, res) => {
     <p>Hello Dear,</p>
       <p>I hope you are doing well.</p>
       <p>
-        We are in urgent need of the subject mentioned product for an ongoing
-        project.
+        We checked your website and we are interested in your services. For us to proceed with order for our on going project, we need to learn more about your offerings to determine if they meet our needs.
       </p>
       <p>
-        Please let us know if it is possible to provide us with a solution,
-        kindly provide your company catalog so we can review.
+        To assist in our assessment, we would appreciate receiving relevant information about your capabilities. This could include a company catalog, service sheet or brief description of your offerings.
       </p>
       <p>
         Thank you in advance and I look forward to receiving your prompt reply.
